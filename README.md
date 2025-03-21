@@ -59,3 +59,21 @@ A simple and intuitive task management application built with **React**, **Redux
    ```bash
    git clone https://github.com/Rish-1903/task-manager.git
    cd task-manager
+
+## Folder Structure
+ ```bash
+task-manager/
+├── src/
+│   ├── components/          # React components
+│   │   ├── TaskForm.js      # Form for adding tasks
+│   │   ├── TaskList.js      # List of tasks
+│   │   ├── TaskFilters.js   # Filtering options
+│   │   ├── TaskSearch.js    # Search functionality
+│   ├── redux/               # Redux store and slices
+│   │   ├── tasksSlice.js    # Redux slice for tasks
+│   │   ├── store.js         # Redux store
+│   ├── App.js               # Main application component
+│   ├── index.js             # Entry point
+├── public/                  # Static assets
+├── package.json             # Project dependencies
+├── README.md                # Project documentation
