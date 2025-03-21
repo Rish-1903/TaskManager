@@ -59,6 +59,17 @@ A simple and intuitive task management application built with **React**, **Redux
    ```bash
    git clone https://github.com/Rish-1903/task-manager.git
    cd task-manager
+2. **Install Dependencies**:
+   ```bash
+    npm install
+
+3. **Start the Development Server**:
+    ```bash
+    npm start
+
+4. **Open the App**:
+   ```bash
+   The app will open automatically in your browser at http://localhost:3000.
 
 ## Folder Structure
  ```bash
